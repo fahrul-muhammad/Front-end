@@ -1,0 +1,300 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(205, 204, 203);
+}
+
+.container {
+  margin-top: 18px;
+  width: 1000px;
+  height: 95vh;
+  background-color: white;
+  border-radius: 10px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.75); */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "image form";
+  overflow: hidden;
+}
+
+.img-container {
+  grid-area: image;
+}
+
+.login-img {
+  height: 100%;
+  background-image: url(/img/Log-in-img-van.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0 0 3px black;
+  margin-left: -12px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.form {
+  grid-area: form;
+  justify-content: center;
+  align-content: center;
+}
+
+.form p {
+  grid-area: form;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: 17%;
+  margin-top: 4%;
+  margin-bottom: -1%;
+}
+input {
+  background-color: rgba(218, 218, 218, 0.28);
+}
+
+.btn {
+  margin-top: 5%;
+}
+
+.form h4 {
+  margin-top: 3%;
+  font-family: "mulish";
+  font-size: 15px;
+}
+
+.form h4:hover {
+  cursor: pointer;
+}
+
+.form h3 {
+  margin-left: -4%;
+  margin-top: 5%;
+  font-size: 18px;
+  color: rgba(57, 57, 57, 0.5);
+}
+
+.btn-warning {
+  box-shadow: 0px 0px 20px rgba(248, 161, 112, 0.47);
+}
+
+.btn-light {
+  box-shadow: 0px 0px 20px rgba(78, 78, 78, 0.4);
+}
+
+.btn-light img {
+  height: 23px;
+}
+
+.btn-dark {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.form h5 {
+  width: 391px;
+  font-family: "mulish";
+  font-size: 15px;
+  padding-top: 7%;
+  padding-left: 59px;
+  padding-right: 120px;
+  align-items: center;
+}
+
+.form h6 {
+  font-family: "mulish";
+  align-items: center;
+  padding-left: 59px;
+  font-size: 10px;
+  color: rgba(132, 132, 132, 1);
+}
+
+h3 {
+  padding-top: -10%;
+  color: rgba(196, 196, 196, 1);
+}
+
+.span {
+  margin-right: -7%;
+}
+
+.icon {
+  color: rgba(57, 57, 57, 1);
+  display: flex;
+  text-align: center;
+}
+
+.fa-twitter {
+  margin-left: 150px;
+}
+
+.fa-facebook {
+  margin-left: 25px;
+}
+
+.fa-instagram {
+  margin-left: 25px;
+}
+
+.fa-linkedin {
+  margin-left: 25px;
+}
+
+.fa-youtube-play {
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 993px) and (min-width: 769px) {
+  .container {
+    display: grid;
+    position: relative;
+  }
+  .mid-text h3 {
+    margin-right: 0%;
+    margin-left: -10%;
+    text-align: center;
+    color: white;
+  }
+
+  .span {
+    right: 55px;
+    position: absolute;
+    bottom: 4%;
+  }
+  .icon {
+    bottom: 3%;
+    position: absolute;
+    right: 17%;
+  }
+}
+
+/* responsive breakpoint for 720px */
+@media screen and (max-width: 768px) and (min-width: 574px) {
+  body {
+    background-image: url(/img/Log-in-img-van.jpg);
+    background-size: cover;
+    background-position-y: center;
+  }
+  .container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .form p {
+    margin-right: 17%;
+    text-align: center;
+  }
+  .form {
+    margin-top: -20px;
+    margin-left: -30%;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-container {
+    margin-left: 5%;
+  }
+  h3 {
+    text-align: center;
+  }
+  h5 {
+    margin-right: 100%;
+    margin-left: 17%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  h6 {
+    margin-right: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .btn:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  .span {
+    margin-right: -7%;
+  }
+  .icon {
+    margin-right: 17%;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  body {
+    background-image: url(/img/Log-in-img-van.jpg);
+    background-size: cover;
+    background-position-y: center;
+    color: white;
+  }
+  .container {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    color: white;
+  }
+  .form p {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 17%;
+    color: #ffffff;
+
+    text-shadow: 3px 5px 2px #474747;
+  }
+  .input {
+    width: 50%;
+    margin-left: 25%;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-light {
+    margin-top: 30%;
+  }
+  .form {
+    position: relative;
+  }
+  .mid-text h3 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  h3 {
+    position: absolute;
+    left: 22%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  h5 {
+    margin-left: 15%;
+    text-align: center;
+    align-items: center;
+    color: white;
+  }
+  h6 {
+    margin-left: -15%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .icon {
+    margin-bottom: -8%;
+    margin-right: 10%;
+    text-align: center;
+    align-items: center;
+    color: white;
+  }
+}
