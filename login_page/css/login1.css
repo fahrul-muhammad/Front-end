@@ -71,6 +71,7 @@ input {
 }
 
 .form h3 {
+  margin-left: -4%;
   margin-top: 5%;
   font-size: 18px;
   color: rgba(57, 57, 57, 0.5);
@@ -115,6 +116,10 @@ h3 {
   color: rgba(196, 196, 196, 1);
 }
 
+.span {
+  margin-right: -7%;
+}
+
 .icon {
   color: rgba(57, 57, 57, 1);
   display: flex;
@@ -141,8 +146,32 @@ h3 {
   margin-left: 25px;
 }
 
+@media screen and (max-width: 993px) and (min-width: 769px) {
+  .container {
+    display: grid;
+    position: relative;
+  }
+  .mid-text h3 {
+    margin-right: 0%;
+    margin-left: -10%;
+    text-align: center;
+    color: white;
+  }
+
+  .span {
+    right: 55px;
+    position: absolute;
+    bottom: 4%;
+  }
+  .icon {
+    bottom: 3%;
+    position: absolute;
+    right: 17%;
+  }
+}
+
 /* responsive breakpoint for 720px */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 574px) {
   body {
     background-image: url(/img/Log-in-img-van.jpg);
     background-size: cover;
@@ -167,8 +196,8 @@ h3 {
   .footer-container {
     margin-left: 5%;
   }
-  h6 {
-    color: black;
+  h3 {
+    text-align: center;
   }
   h5 {
     margin-right: 100%;
@@ -186,33 +215,42 @@ h3 {
   .btn:hover {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
+  .span {
+    margin-right: -7%;
+  }
   .icon {
-    margin-bottom: 2%;
+    margin-right: 17%;
   }
 }
 
-@media (max-width: 572px) {
+@media screen and (max-width: 572px) {
   body {
-    background-color: white;
-    background-image: none;
+    background-image: url(/img/Log-in-img-van.jpg);
+    background-size: cover;
+    background-position-y: center;
+    color: white;
   }
   .container {
     width: 100%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: none;
+    color: white;
   }
   .form p {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left: 40%;
+    margin-right: 17%;
+    color: #ffffff;
+
+    text-shadow: 3px 5px 2px #474747;
   }
   .input {
     width: 50%;
-    margin-left: 37%;
+    margin-left: 25%;
     justify-content: center;
     align-items: center;
   }
@@ -227,29 +265,35 @@ h3 {
   .form {
     position: relative;
   }
+  .mid-text h3 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
   h3 {
     position: absolute;
-    left: 35%;
+    left: 22%;
+    color: white;
+    justify-content: center;
+    align-items: center;
   }
   h5 {
-    margin-left: 30%;
-    text-align: center;
-    align-items: center;
-  }
-  h6 {
-    margin-left: 27%;
-    text-align: center;
-    align-items: center;
-  }
-  .span {
-    margin-left: -10%;
-    text-align: center;
-    align-items: center;
-  }
-  .icon {
-    margin-top: 13%;
     margin-left: 15%;
     text-align: center;
     align-items: center;
+    color: white;
+  }
+  h6 {
+    margin-left: -15%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .icon {
+    margin-bottom: -8%;
+    margin-right: 10%;
+    text-align: center;
+    align-items: center;
+    color: white;
   }
 }
