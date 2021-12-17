@@ -1,0 +1,276 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+  display: block;
+  height: 2287px;
+}
+
+.nav-container {
+  width: 100%;
+  grid-area: left right;
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+}
+
+.navbar ul {
+  font-family: "Nunito", sans-serif;
+  margin-right: 3%;
+}
+
+.btn-light {
+  border-color: #ffcd61;
+  margin-right: 2%;
+}
+
+.btn-light:hover {
+  color: black;
+  background-color: rgba(255, 205, 97, 1);
+}
+
+.btn-warning {
+  margin-right: 5%;
+}
+
+.jumbotron {
+  margin-top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  background: url(/img/home-hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 767px;
+  color: white;
+}
+
+.jumbotron h1 {
+  padding-top: 5%;
+  padding-left: 7%;
+  padding-right: 70%;
+  font-size: 64px;
+  font-family: "Playfair Display";
+}
+
+.jumbotron h5 {
+  font-family: "Nunito", sans-serif;
+  padding-top: 5%;
+  padding-left: 7%;
+}
+
+.jumbotron h6 {
+  padding-left: 7%;
+}
+
+.dropdown {
+  /* background-color: rgba(255, 255, 255, 0.5) !important; */
+  width: 600px;
+  margin-top: 3%;
+  margin-left: 7%;
+}
+
+.location {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.type {
+  margin-left: 10%;
+  width: 220px;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.type- {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.payment {
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.date {
+  margin-left: 10%;
+  width: 220px;
+  margin-top: 9%;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+.date- {
+  margin-top: 9%;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.explore {
+  margin-top: 7%;
+  background-color: rgba(255, 205, 97, 1) !important;
+}
+
+button .explore {
+  background-color: rgba(255, 205, 97, 1) !important ;
+}
+
+.main-container {
+  margin-top: 8%;
+  height: 655px;
+  background-color: #ffffff;
+  color: black;
+  position: relative;
+}
+
+.main-container p {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  padding-top: 5%;
+  padding-left: 7%;
+  max-width: max-content;
+}
+
+.main-container h6 {
+  position: absolute;
+  top: 15%;
+  right: 7%;
+  color: rgba(251, 143, 29, 1);
+}
+
+.main-container h6:hover {
+  cursor: pointer;
+}
+
+.img-fluid {
+  width: 284px;
+  height: 337px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.img-1 {
+  background-color: white;
+  height: 12%;
+  width: 30%;
+  font-style: "Nunito";
+  font-family: 15px;
+  margin-top: -13%;
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.img-2 {
+  background-color: white;
+  height: 12%;
+  width: 30%;
+  font-style: "Nunito";
+  font-family: 15px;
+  margin-top: -13%;
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.img-3 {
+  background-color: white;
+  height: 12%;
+  width: 30%;
+  font-style: "Nunito";
+  font-family: 15px;
+  margin-top: -13%;
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.img-4 {
+  background-color: white;
+  height: 12%;
+  width: 30%;
+  font-style: "Nunito";
+  font-family: 15px;
+  margin-top: -13%;
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.testimoni {
+  width: 100%;
+  height: 750px;
+  background-color: white;
+}
+
+.testimoni h3 {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  padding-left: 7%;
+  color: black;
+}
+
+.star {
+  color: rgba(255, 187, 12, 1);
+  padding-left: 7%;
+  padding-top: 10%;
+}
+
+.testimoni h6 {
+  color: rgba(57, 57, 57, 1);
+  padding-top: 2%;
+  width: 27%;
+  font-family: "Mulish";
+}
+
+.testimoni h2 {
+  padding-top: 2%;
+  padding-left: 7%;
+  width: 27%;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Nunito";
+}
+
+.testimoni h4 {
+  padding-left: 7%;
+  font-size: 18px;
+  font-family: "Nunito";
+  color: rgba(57, 57, 57, 0.85);
+}
+
+.testimoni-img {
+  margin-left: 55%;
+  margin-top: -20%;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  background-image: url(/img/custumor.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.testimoni-img figcaption {
+  background-color: white;
+  height: 12%;
+  width: 30%;
+  font-family: 15px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 8px;
+  padding-top: 5%;
+  bottom: -5px;
+  right: -1px;
+  text-align: center;
+}
+
+.circle-1 {
+  position: absolute;
+  width: 50px;
+  left: 80%;
+  bottom: -118%;
+}

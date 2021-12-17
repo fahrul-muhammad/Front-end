@@ -78,6 +78,10 @@ input {
   color: rgba(57, 57, 57, 0.5);
 }
 
+.btn:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
 .btn-warning {
   box-shadow: 0px 0px 20px rgba(248, 161, 112, 0.47);
 }
@@ -163,6 +167,7 @@ h3 {
     right: 55px;
     position: absolute;
     bottom: 4%;
+    margin-top: 5%;
   }
   .icon {
     bottom: 3%;
