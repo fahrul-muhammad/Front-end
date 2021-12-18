@@ -22,8 +22,8 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
-    <link rel="stylesheet" href="./css/profile.css" />
-    <title>Profile Page</title>
+    <link rel="stylesheet" href="./css/vehicle-detail.css" />
+    <title>Vehicle Detail</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -38,10 +38,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link disabled" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">vehicle type</a>
+                        <a class="nav-link active" href="#">vehicle type</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">history</a>
@@ -56,62 +56,37 @@
                 <div class="nav-img"></div>
         </div>
     </nav>
-    <div class="container-profile profile">
-        <h3>Profile</h3>
-        <div class="card">
-            <div class="profile-pic">
-                <div class="edit"></div>
-            </div>
-            <h1>Samantha Doe</h1>
-            <div class="detail">
-                <h4>samanthadoe@mail.com</h4>
-                <h4> +62833467823</h4>
-                <h4>Has been active since 2013</h4>
-            </div>
+    <h2>Detail</h2>
+    <div class="left-arrow"></div>
+    <div class="main-container">
+        <div class="left"></div>
+        <div class="right">
+            <h1><strong>Fixie - Gray Only </strong>Yogyakarta</h1>
+            <h3>Available</h3>
+            <h4>No Prepayment</h4>
+            <ul>
+                <li>Capacity: 1 Person</li>
+                <li>Type: Bike</li>
+                <li>Reservation before 2 PM</li>
+            </ul>
+            <h2>Rp. 78.000/day</h2>
         </div>
-        <div class="gender">
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" style="width:30px; height:30px" value="option1">
-                <label class="form-check-label"  for="inlineRadio1">Male</label>
-              </div>
-              <div class="form-check form-check-inline female">
-                <input class="form-check-input" style="width:30px; height:30px" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Female</label>
-              </div>
-        </div>  
     </div>
-    <div class="contact">
-        <h1>Contact</h1>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email Adress:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Adress:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jl. Garuda">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Mobile Number:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(+62)11122233344">
-          </div>
-          <div class="row">
-            <h2>Identity</h2>
-            <div class="col">
-                <label for="exampleFormControlInput1" class="form-label">Display name:</label>
-              <input type="text" class="form-control" placeholder="Example Display name" aria-label="Display name">
-            </div>
-            <div class="col">
-                <label for="exampleFormControlInput1" class="form-label">DD/MM/YYYY:</label>
-              <input type="text" class="form-control" placeholder="23/06/2003" aria-label="DD/MM/YYYY">
-            </div>
-          </div>
-          <div class="wraping">
-              <div class="row justify-content-between">
-                <button type="button" class="btn btn-warning">Save Change</button>
-                <button type="button" class="btn btn-secondary">Edit Password</button>
-                <button type="button" class="btn btn-light">Cancel</button>
-                </div>
-          </div>
+    <div class="second-container">
+        <i class="bi bi-chevron-left"></i>
+        <div class="s-right"></div>
+        <div class="s-left"></div>
+        <i class="bi bi-chevron-right"></i>
+    </div>
+    <div class="wraper">
+        <button type="button" class="btn btn-light"><strong>-</strong></button>
+        <h2>2</h2>
+        <button type="button" class="btn btn-warning warning"><strong>+</strong></button>
+    </div>
+    <div class="wraping">
+        <button type="button" class="btn btn-secondary chat"><strong>Chat Admin</strong></button>
+        <button type="button" class="btn btn-warning kuning"><strong>Reservation</strong></button>
+        <button type="button" class="btn btn-secondary like"><i class="bi bi-heart-fill"></i><strong> Like</strong></button>
     </div>
     <section>
         <div class="flex-container">
@@ -167,11 +142,11 @@
             </div>
         </div>
     </footer>
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</body>
+ <!-- Bootstrap -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 </script>
 <!-- fontawesome JS -->
 <script src="https://use.fontawesome.com/414dbfc4ce.js"></script>
-</body>
 </html>

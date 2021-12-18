@@ -1,0 +1,398 @@
+body {
+    background-color: white;
+}
+
+li a {
+    color: #B8BECD;
+}
+
+ul {
+    margin-right: 10%;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.nav-email {
+    width: 40px;
+    height: 36px;
+    margin-right: 2%;
+    background-image: url(/img/email.png);
+    background-size: cover;
+    margin-left: 3%;
+    position: relative;
+}
+
+
+.unread-msg {
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/Ellipse\ 188.png);
+    position: absolute;
+    left: -15%;
+    text-align: center;
+    padding-bottom: -50px;
+}
+
+.nav-img {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius:50% ;
+    background-image: url(/img/profilepic.png);
+    background-size: cover;
+    margin-right: 4%;
+}
+
+h2 {
+    margin-top: 3%;
+    margin-left: 15%;
+    width: max-content;
+    height: max-content;
+    font-weight: "Nunito";
+    font-size: 36px;
+}
+
+.left-arrow {
+    width: 28px;
+    height: 44px;
+    margin-top: -3%;
+    margin-left:5% ;
+    background-image: url(/img/left-arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    width: 90%;
+    height: 450px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 6%;
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns:1fr 1fr ;
+}
+
+.left {
+    grid-area: left;
+    background-color: khaki;
+    height: 409px;
+    width: 610px;
+    background-image: url(/img/sepeda-keren.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.right {
+    grid-area: right;
+    height: 409px;
+    width: 100%;
+}
+
+.righ strong {
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.right h1 {
+    width: 410px;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000;     
+}
+
+.right h3 {
+    padding-top: 7%;
+    color: #087E0D;
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.right h4 {
+    color: #9B0A0A;
+    font-family: "Nunito";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.right ul {
+    margin-top: 3%;
+    margin-left: -5%;
+    list-style: none;
+}
+
+.right li {
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "Nunito";
+    font-weight: 300;
+    padding-bottom: 3%;
+    color: #393939;
+}
+
+.right h2 {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    line-height: 25px;
+    font-weight: 900;
+    color: #000000;
+    margin-left: 30%;
+}
+
+.second-container {
+    margin-left: 7%;
+    width: 35%;
+    height: max-content;  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+    position: relative;
+}
+
+.second-container i {
+    width: max-content;
+    height: max-content;
+}
+
+.s-right {
+    grid-area: right;
+    width: 233px;
+    height: 158px;
+    background-color: black;
+    justify-self: center;
+    background-image: url(/img/sepeda-keren.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.s-left {
+    grid-area:left ;
+    width: 233px;
+    height: 158px;
+    background-color:darkslateblue;
+    justify-self: center;
+    background-image: url(/img/sepeda-keren.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.bi-chevron-left {
+    grid-area: left;
+    font-size: 40px;
+    margin-top: 15%;
+    margin-left: -15%;
+    z-index: 1;
+}
+
+.bi-chevron-right {
+    grid-area: right;
+    font-size: 40px;
+    margin-top: 15%;
+    margin-left: 97%;
+}
+
+.wraper {
+    width: 40%;
+    height: 80px;
+    margin-left: 50%;
+    margin-top: -5%;
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+}
+
+.wraper h2 {
+    font-size: 48px;
+    font-family: "Nunito";
+    margin-top: -11%;
+    margin-left: 30%;
+}
+
+.warning {
+    background-color: #FFCD61;
+    margin-left: 50%;
+    margin-top: -17.5%;
+}
+
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn strong {
+    font-weight: 900;
+    font-size:40px;
+}
+
+.btn-light:hover {
+    background-color: rgba(203, 203, 212, 0.2);
+}
+
+.btn-light {
+    background-color: rgba(203, 203, 212, 0.2);
+}
+
+.wraping {
+    width: 100%;
+    height: 100px;
+    margin-top: 5%;
+    display: inline-flex;
+}
+
+.wraping strong {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.chat {
+    width:28%;
+    margin-left: 5%;
+    height: 80%;
+    background-color: #393939;
+    color: #FFCD61;
+    border-radius: 10px;
+}
+
+.chat:hover, .like:hover {
+    background-color: #393939;
+    color: #FFCD61;
+}
+
+.kuning {
+    width:28%;
+    margin-left: 4%;
+    height: 80%;
+    background-color: #FFCD61;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.like {
+    width: 18%;
+    margin-left: 4% ;
+    background-color: #393939;
+    color: #FFCD61;
+    border-radius: 10px;
+}
+
+.bi-heart-fill {
+    margin-top: -100%;
+}
+
+.flex-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 350px;
+    color: rgba(57, 57, 57, 1);
+    font-style: "Mulish";
+    font-weight: 700;
+    background-color: #F9F9FB;
+  }
+  
+  ul {
+    color: rgba(132, 132, 132, 1);
+    
+  }
+  
+  li {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .first {
+    width: 500px;
+  }
+  
+  .first p {
+    padding-top: 5%;
+    padding-right: 45%;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .first h6 {
+    font-size: 17px;
+    font-weight: 300;
+    padding-left: 0%;
+  }
+  
+  .second {
+    width: 100px;
+  }
+  
+  .second ul {
+    list-style-type: none;
+    padding-left: 0%;
+    margin-top: 10%;
+  }
+  
+  .second li {
+    margin-top: 1%;
+    padding-top: 3%;
+  }
+  
+  .third {
+    margin-left: 5%;
+    width: 200px;
+  }
+  
+  .third ul {
+    list-style-type: none;
+    padding-left: 0%;
+    margin-top: 7%;
+  }
+  
+  .third li {
+    padding-top: -2%;
+    padding-bottom: 3%;
+  }
+  
+  .fourt {
+    width: 200px;
+    margin-right: 7%;
+  }
+  
+  .fourt ul {
+    list-style-type: none;
+    padding-left: 0%;
+    margin-top: 7%;
+  }
+  
+  .fourt li {
+    padding-top: -2%;
+    padding-bottom: 3%;
+  }
+  
+  .footer-container {
+    height: 83px;
+    background-color: #F9F9FB;
+  }
+  
+  .footer-container h6 {
+    color: rgba(196, 196, 196, 1);
+    text-align: center;
+  }
+  
+  .icon {
+    color: #393939;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 3%;
+  }
+  
+  .fa {
+    margin-right: 3%;
+  }
