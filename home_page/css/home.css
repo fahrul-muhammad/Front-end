@@ -21,9 +21,12 @@ body {
   margin-right: 3%;
 }
 
+.login-btn {
+  margin-right: 3%;
+}
+
 .btn-light {
   border-color: #ffcd61;
-  margin-right: 2%;
 }
 
 .btn-light:hover {
@@ -31,7 +34,7 @@ body {
   background-color: rgba(255, 205, 97, 1);
 }
 
-.btn-warning {
+.btn-warning a {
   margin-right: 5%;
 }
 
