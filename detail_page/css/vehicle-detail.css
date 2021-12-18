@@ -252,8 +252,9 @@ h2 {
 
 .wraping strong {
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 500;
 }
+
 
 .chat {
     width:28%;
@@ -265,7 +266,7 @@ h2 {
 }
 
 .chat:hover, .like:hover {
-    background-color: #393939;
+    background-color: #525252;
     color: #FFCD61;
 }
 
