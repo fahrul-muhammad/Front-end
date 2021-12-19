@@ -381,3 +381,95 @@ li {
 .fa {
   margin-right: 3%;
 }
+
+@media screen and (max-width: 993px) and (min-width: 769px) {
+
+  .main-container h6 {
+    margin-top: -2%;
+  }
+
+  .main-container p {
+    margin-bottom: 2%;
+  }
+
+  .img-1 {
+    margin-top: -18%;
+    width: 35%;
+  }
+
+  .img-2 {
+    margin-top: -18%;
+    width: 45%;
+  }
+
+  .img-3 {
+    margin-top: -18%;
+    width: 35%;
+  }
+
+  .img-4 {
+    margin-top: -18%;
+    width: 35%;
+  }
+
+  .testimoni-img {
+    margin-top: -40%;
+  }
+
+  .flex-container {
+    width: 100%;
+  }
+  .first {
+    margin-left: 8%;
+  }
+
+  .footer-container {
+    overflow: hidden;
+  }
+  .footer-container h6 {
+    margin-left: -10%;
+  }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 574px) {
+  body {
+    background-color: #F9F9FB;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .testimoni h6 {
+    padding-top: 20%;
+  }
+
+  .testimoni-img {
+    margin-left: 40%;
+    margin-top: -42%;
+    width: 50%;
+    height: 50%;
+  }
+
+  .footer-container {
+    overflow: hidden;
+  }
+  .flex-container {
+    margin-top: 5%;
+    margin-bottom: 7%;
+    height: 300px;
+  }
+
+  .first {
+    margin-left: 5%;
+  }
+
+  .footer-container h6 {
+    margin-left :-30%
+  }
+
+  .first p {
+    padding-bottom: 5%;
+  }
+}
