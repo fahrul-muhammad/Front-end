@@ -6,7 +6,6 @@
 }
 
 body {
-  background-color: grey;
   display: block;
   height: 2287px;
 }
@@ -22,7 +21,7 @@ body {
 }
 
 .login-btn {
-  margin-right: 3%;
+  margin-right: 3%; 
 }
 
 .btn-light {
@@ -384,6 +383,10 @@ li {
 
 @media screen and (max-width: 993px) and (min-width: 769px) {
 
+    body {
+      overflow-x:hidden ;
+    }
+
   .main-container h6 {
     margin-top: -2%;
   }
@@ -412,8 +415,13 @@ li {
     width: 35%;
   }
 
+  .testimoni {
+    margin-top: 20%;
+  }
+
   .testimoni-img {
     margin-top: -40%;
+    margin-left: 50%;
   }
 
   .flex-container {
@@ -429,35 +437,58 @@ li {
   .footer-container h6 {
     margin-left: -10%;
   }
+  .circle-1 {
+    display: none;
+  }
 
 }
 
 @media screen and (max-width: 768px) and (min-width: 574px) {
-  body {
-    background-color: #F9F9FB;
-  }
-
   .nav-btn {
     display: none;
   }
 
+  .main-container figcaption {
+    margin-top: -26%;
+    width: 60%;
+  }
+
+  .main-container {
+    height:  max-content;
+  }
+
+  .main-container h6 {
+    margin-top: -10%;
+  }
+
+  .testimoni {
+    margin-top: 30%;
+  }
+
   .testimoni h6 {
-    padding-top: 20%;
+    padding-top: 3%;
+  }
+
+  .star {
+    padding-top: 10%;
   }
 
   .testimoni-img {
-    margin-left: 40%;
-    margin-top: -42%;
+    margin-left: 45%;
+    margin-top: -60%;
     width: 50%;
-    height: 50%;
+    height: 60%;
+  }
+
+  .circle-1 {
+    display: none;
   }
 
   .footer-container {
     overflow: hidden;
   }
   .flex-container {
-    margin-top: 5%;
-    margin-bottom: 7%;
+    margin-top: 0%;
     height: 300px;
   }
 
@@ -472,4 +503,167 @@ li {
   .first p {
     padding-bottom: 5%;
   }
+}
+
+@media screen and (max-width: 572px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav .btn {
+    display: none;
+  }
+  
+  .navbar-toggler {
+    margin-left: 70%;
+  }
+
+  .jumbotron h1 {
+    text-align: center;
+    padding-left: 30%;
+  }
+
+  .jumbotron h5, .jumbotron h6 {
+    text-align: center;
+    padding-right: 10%;
+  }
+
+  .dropdown {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5%;
+  }
+
+  .btn {
+    margin-bottom: 3%;
+  }
+
+  .type- {
+    width: 16%;
+  }
+
+  .type {
+    margin-left: 0%;
+  }
+
+  .payment {
+    margin-top: -0%;
+  }
+
+  .date {
+    margin-left: 0%;
+    margin-top: -0%;
+  }
+
+  .date- {
+    margin-top: -0.2%;
+    width: 16%;
+  }
+
+  .explore {
+    margin-left: 15%;
+  }
+
+  .main-container p {
+    text-align: center;
+    padding-left: 26%;
+  }
+
+  .main-container h6 {
+    margin-top: -3%;
+    text-align: center;
+    margin-right: 6%;
+  }
+
+  .container {
+    margin-left: 23%;
+  }
+  .container img {
+    margin-bottom: 10%;
+  }
+
+  .container figcaption {
+    margin-top: -17%;
+    margin-bottom: 10%;
+    width: 17%;
+  }
+
+  .circle-1 {
+    display: none;
+  }
+
+  .testimoni {
+    margin-top: 190%;
+    margin-right: 100%;
+    background-color: blueviolet;
+    background-image: url(/img/custumor.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+
+  .testimoni h3 {
+    text-align: center;
+    padding-right: 5%;
+    color: white;
+  }
+
+  .star {
+    margin-left: 35%;
+  }
+
+  .testimoni h6 {
+    margin-left: 35%;
+    padding-right: 1%;
+    padding-left: -5%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+
+  .testimoni h2 {
+    margin-left: 35%;
+    padding-right: 1%;
+    padding-left: -5%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+  .testimoni h4 {
+    margin-left: -1%;
+    padding-right: 1%;
+    padding-left: -5%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+
+  .star {
+    margin-right: -10%;
+  }
+
+  .testimoni-img {
+    display: none;
+  }
+
+  .flex-container {
+    height: max-content;
+  }
+
+  .first {
+    display: none;
+  }
+
+  .second {
+    margin-left: 10%;
+  }
+
+  .third {
+    margin-left: 15%;
+  }
+
+  .footer-container h6 {
+    margin-left: -50%;
+  }
+
 }
