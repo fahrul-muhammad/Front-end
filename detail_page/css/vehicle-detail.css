@@ -397,3 +397,21 @@ h2 {
   .fa {
     margin-right: 3%;
   }
+
+  @media screen and (max-width: 993px) and (min-width: 769px) {
+    body {
+        background-color: darkseagreen;
+    }
+  }
+  
+  @media screen and (max-width: 768px) and (min-width: 574px) {
+    body {
+      background-color: chartreuse;
+    }
+  }
+  
+  @media screen and (max-width: 572px) {
+    body {
+      background-color: blueviolet;
+    }
+  }

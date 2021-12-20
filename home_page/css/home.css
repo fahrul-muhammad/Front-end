@@ -121,6 +121,10 @@ button .explore {
   position: relative;
 }
 
+.main-container figcaption, .main-container img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .main-container p {
   font-family: "Playfair Display";
   font-size: 36px;
@@ -380,6 +384,7 @@ li {
 .fa {
   margin-right: 3%;
 }
+
 
 @media screen and (max-width: 993px) and (min-width: 769px) {
 
