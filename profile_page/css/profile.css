@@ -254,7 +254,7 @@ li a {
   }
   
   .second {
-    width: 100px;
+    width: auto;
   }
   
   .second ul {
@@ -270,7 +270,7 @@ li a {
   
   .third {
     margin-left: 5%;
-    width: 200px;
+    width: auto;
   }
   
   .third ul {
@@ -285,7 +285,7 @@ li a {
   }
   
   .fourt {
-    width: 200px;
+    width: auto;
     margin-right: 7%;
   }
   
@@ -321,21 +321,123 @@ li a {
     margin-right: 3%;
   }
 
+  
+hr {
+  width: 85%; /*  #C4C4C4 */
+  border-top: 3px solid  #C4C4C4;
+  margin: auto;
+}
+
+
+@media screen and (min-width:993px) and (max-width:1400px) {
+  body {
+    background-color: crimson ;
+    overflow-x: hidden;
+  }
+
+  .flex-container {
+    width: 100%;
+  }
+  .fourt {
+    margin-right: 0;
+  }
+
+  .wraping button {
+    width: 30%;
+  }
+}
 
 @media screen and (max-width: 993px) and (min-width: 769px) {
   body {
       background-color: darkseagreen;
+      overflow-x: hidden;
+  }
+  .card {
+    margin: auto;
+  }
+  .gender {
+    margin-left: auto;
+    margin-right: -7%;
+  }
+  .wraping button {
+    width: 30%;
+  }
+
+  .first {
+    margin-left: 3%;
+    
+  }
+  .first,.second,.third,.fourt {
+    margin-top: 5%;
+  }
+  .fourt {
+    margin-left: 3%;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 574px) {
   body {
     background-color: chartreuse;
+    overflow-x: hidden;
   }
+
+  .card {
+    margin: auto;
+  }
+
+  .gender {
+    margin-right: auto;
+    margin-left: 20%;
+  }
+  .wraping button {
+    width: 30%;
+  }
+
+  .first {
+    margin-left: 5%;
+  }
+  .fourt {
+    margin-left: 1%;
+  }
+
 }
 
 @media screen and (max-width: 572px) {
   body {
     background-color: blueviolet;
+    overflow-x: hidden;
+  }
+
+  .navbar-toggler  {
+    display: none;
+  }
+
+  .nav-email {
+    display: none;
+  }
+
+  .card {
+    margin: auto;
+  }
+  .gender {
+    margin: auto;
+    margin-left: 10%;
+  }
+
+  .wraping button {
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  .first {
+    display: none;
+  }
+  .second {
+    margin-left: 10%;
+  }
+  .flex-container {
+    height: max-content;
   }
 }

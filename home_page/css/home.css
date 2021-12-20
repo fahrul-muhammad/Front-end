@@ -400,10 +400,6 @@ hr {
 
 
 @media screen and (min-width:993px) and (max-width:1400px){
-  nav ul {
-    background-color: blue;
-  }
-
   .main-container figcaption {
     width: 35%;
     margin-top: -12.9%;
