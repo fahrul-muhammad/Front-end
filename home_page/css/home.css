@@ -121,6 +121,11 @@ button .explore {
   position: relative;
 }
 
+/* .main-container figcaption {
+  margin-top: -19%;
+  width: 40%;
+} */
+
 .main-container figcaption, .main-container img {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -216,6 +221,10 @@ button .explore {
   color: black;
 }
 
+.testimoni figcaption {
+  margin-bottom: 1%;
+}
+
 .star {
   color: rgba(255, 187, 12, 1);
   padding-left: 7%;
@@ -257,6 +266,7 @@ button .explore {
   background-position: center;
   position: relative;
   z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .testimoni-img figcaption {
@@ -271,6 +281,7 @@ button .explore {
   bottom: -5px;
   right: -1px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .circle-1 {
@@ -370,10 +381,6 @@ li {
   background-color: #F9F9FB;
 }
 
-.footer-container h6 {
-  color: rgba(196, 196, 196, 1);
-}
-
 .icon {
   color: #393939;
   font-size: 30px;
@@ -385,15 +392,39 @@ li {
   margin-right: 3%;
 }
 
+hr {
+  width: 85%; /*  #C4C4C4 */
+  border-top: 3px solid  #C4C4C4;
+  margin: auto;
+}
+
+
+@media screen and (min-width:993px) and (max-width:1400px){
+  nav ul {
+    background-color: blue;
+  }
+
+  .main-container figcaption {
+    width: 35%;
+    margin-top: -12.9%;
+  }
+
+  .first {
+    margin-left: 5%;
+  }
+}
 
 @media screen and (max-width: 993px) and (min-width: 769px) {
-
-    body {
-      overflow-x:hidden ;
-    }
+  body {
+    overflow-x:hidden ;
+  }
 
   .main-container h6 {
     margin-top: -2%;
+  }
+  
+  .main-container {
+    margin-bottom: 30%;
   }
 
   .main-container p {
@@ -425,12 +456,13 @@ li {
   }
 
   .testimoni-img {
-    margin-top: -40%;
-    margin-left: 50%;
+    margin-top: -50%;
+    margin-left: 45%;
   }
 
   .flex-container {
     width: 100%;
+    height: max-content;
   }
   .first {
     margin-left: 8%;
@@ -439,9 +471,7 @@ li {
   .footer-container {
     overflow: hidden;
   }
-  .footer-container h6 {
-    margin-left: -10%;
-  }
+
   .circle-1 {
     display: none;
   }
@@ -449,6 +479,7 @@ li {
 }
 
 @media screen and (max-width: 768px) and (min-width: 574px) {
+  
   .nav-btn {
     display: none;
   }
@@ -499,10 +530,6 @@ li {
 
   .first {
     margin-left: 5%;
-  }
-
-  .footer-container h6 {
-    margin-left :-30%
   }
 
   .first p {
@@ -588,7 +615,7 @@ li {
   }
 
   .container figcaption {
-    margin-top: -17%;
+    margin-top: -18.8%;
     margin-bottom: 10%;
     width: 17%;
   }
