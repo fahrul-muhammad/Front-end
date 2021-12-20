@@ -147,6 +147,13 @@ h3 {
   margin-left: 25px;
 }
 
+hr {
+  width: 85%; /*  #C4C4C4 */
+  border-top: 3px solid  #C4C4C4;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
 @media screen and (max-width: 993px) and (min-width: 769px) {
   .container {
     display: grid;

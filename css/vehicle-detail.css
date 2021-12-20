@@ -331,7 +331,7 @@ h2 {
   }
   
   .second {
-    width: 100px;
+    width: auto;
   }
   
   .second ul {
@@ -347,7 +347,7 @@ h2 {
   
   .third {
     margin-left: 5%;
-    width: 200px;
+    width: auto;
   }
   
   .third ul {
@@ -398,9 +398,99 @@ h2 {
     margin-right: 3%;
   }
 
+  hr {
+    width: 85%; /*  #C4C4C4 */
+    border-top: 3px solid  #C4C4C4;
+    margin: auto;
+  }
+
+  @media screen and (min-width:993px) and (max-width:1400px) {
+    body {
+      background-color: crimson ;
+      overflow-x: hidden;
+    }
+    .first {
+      margin-left: 5%;
+    }
+  }
+
   @media screen and (max-width: 993px) and (min-width: 769px) {
     body {
         background-color: darkseagreen;
+    }
+
+    .main-container {
+      display: inline-block;
+    }
+
+    .left {
+      margin: auto;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+
+    .right h1 {
+      margin: auto;
+      text-align: center;
+    }
+    .right h2,h3,h4 {
+      margin: auto;
+      text-align: center;
+    }
+
+    .right ul li {
+      margin: auto;
+      text-align: center;
+      margin-left: 10%;
+    }
+
+    .second-container {
+      margin: auto;
+      margin-right: 45%;
+      margin-top: 5%;
+    }
+
+    .s-right {
+      margin-left: 5%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+
+    .s-left{
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; 
+    }
+
+    .bi-chevron-right {
+      margin-left:100%;
+    }
+
+    .wraper {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+
+    .minus {
+      margin-left: -50%;
+    }
+
+    .warning {
+      margin-top: -37%;
+      margin-left: 20%;
+    }
+
+    .wraper h2 {
+      margin-top: -20%;
+      margin-left: -5%;
+    }
+
+    .first {
+      margin-left: 5%;
+    }
+
+    .fourt {
+      margin-left:5%;
+    }
+
+    .footer-container hr {
+      margin-bottom: 2%;
     }
   }
   
@@ -408,10 +498,180 @@ h2 {
     body {
       background-color: chartreuse;
     }
+
+    .main-container {
+      display: inline-block;
+    }
+
+    .main-container h1 {
+      margin-left: 5%;
+    }
+
+    .main-container h3,h4,ul li {
+      margin-left: 5%;
+    }
+    .second-container {
+      margin-left: 17%;
+      margin-top: 5%;
+    }
+
+    .bi-chevron-right {
+      margin-left: 104%;
+    }
+
+    .wraper {
+      margin-top: 10%;
+    }
+
+    .wraper .btn-light {
+      margin-left: -50%;
+    }
+
+    .wraper h2 {
+      margin-left: -7%;
+      margin-top: -22%;
+    }
+
+    .wraper .warning {
+      margin-top: -37%;
+      margin-left: 18%;
+    }
+
+    .s-right {
+      margin-left: 10%;
+    }
+
+    .left {
+      margin: auto;
+    }
+
+    .kuning {
+      margin-left: 7%;
+    }
+
+    .like {
+      margin-left: 10%;
+    }
+
+    .first {
+      margin-left: 5%;
+    }
+
+    .fourt {
+      margin-left: 5%;
+    }
+    hr {
+      margin-bottom: 2%;
+    }
   }
   
   @media screen and (max-width: 572px) {
     body {
       background-color: blueviolet;
+    }
+
+    h2 {
+      margin: auto;
+    }
+
+    .main-container {
+      display: inline;
+    }
+
+    .left {
+      width: 100%;
+      border-radius: 0%;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .right h2 {
+      margin: auto;
+    }
+
+    .right h1 {
+      margin-left: 25%;
+    }
+
+    .right h3 {
+      margin-left: 35%;
+    }
+
+    .right h4 {
+      margin-left: 30%;
+    }
+
+    .right ul li {
+      margin-left: 30%;
+    }
+
+    .second-container {
+      width: 10%;
+    }
+
+    .s-left{
+      margin-right:5%;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .s-right {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .bi-chevron-left {
+      margin-left: -20%;
+    }
+
+    .bi-chevron-right {
+      margin-right: -10%;
+    }
+
+    .wraper {
+      margin-top: 5%;
+    }
+
+    .wraper .btn-light {
+      margin-left: -75%;
+    }
+
+    .wraper h2 {
+      margin-top: -30%;
+      margin-left: -10%;
+    }
+
+    .wraper .warning {
+      margin-top: -50%;
+      margin-left: 30%;
+    }
+
+    .wraping {
+      margin-top: 10%;
+    }
+
+    .navbar-toggler {
+      display: none;
+    }
+
+    .nav-email {
+      display: none;
+    }
+
+    .first {
+      display: none;
+    }
+
+    .second {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .third {
+      margin-right: 10%;
+    }
+
+    .flex-container {
+      height: max-content;
+    }
+    hr {
+      margin-bottom: 3%;
     }
   }
