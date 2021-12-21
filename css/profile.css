@@ -331,7 +331,6 @@ hr {
 
 @media screen and (min-width:993px) and (max-width:1400px) {
   body {
-    background-color: crimson ;
     overflow-x: hidden;
   }
 
@@ -349,7 +348,6 @@ hr {
 
 @media screen and (max-width: 993px) and (min-width: 769px) {
   body {
-      background-color: darkseagreen;
       overflow-x: hidden;
   }
   .card {
@@ -377,7 +375,6 @@ hr {
 
 @media screen and (max-width: 768px) and (min-width: 574px) {
   body {
-    background-color: chartreuse;
     overflow-x: hidden;
   }
 
@@ -404,7 +401,6 @@ hr {
 
 @media screen and (max-width: 572px) {
   body {
-    background-color: blueviolet;
     overflow-x: hidden;
   }
 

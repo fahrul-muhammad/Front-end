@@ -406,7 +406,6 @@ h2 {
 
   @media screen and (min-width:993px) and (max-width:1400px) {
     body {
-      background-color: crimson ;
       overflow-x: hidden;
     }
     .first {
@@ -415,9 +414,7 @@ h2 {
   }
 
   @media screen and (max-width: 993px) and (min-width: 769px) {
-    body {
-        background-color: darkseagreen;
-    }
+
 
     .main-container {
       display: inline-block;
@@ -495,9 +492,7 @@ h2 {
   }
   
   @media screen and (max-width: 768px) and (min-width: 574px) {
-    body {
-      background-color: chartreuse;
-    }
+
 
     .main-container {
       display: inline-block;
@@ -566,9 +561,6 @@ h2 {
   }
   
   @media screen and (max-width: 572px) {
-    body {
-      background-color: blueviolet;
-    }
 
     h2 {
       margin: auto;
