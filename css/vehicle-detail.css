@@ -24,6 +24,10 @@ ul {
     position: relative;
 }
 
+nav ul li {
+  font-weight: 400;
+}
+
 
 .unread-msg {
     width: 20px;
@@ -152,7 +156,7 @@ h2 {
 .second-container {
     margin-left: 7%;
     width: 35%;
-    height: max-content;  
+    height: max-content;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "left right";
@@ -201,29 +205,30 @@ h2 {
     margin-left: 97%;
 }
 
-.wraper {
-    width: 40%;
-    height: 80px;
-    margin-left: 50%;
-    margin-top: -5%;
+.s-container {
+  position: relative;
 }
 
-.btn {
-    width: 80px;
+.wraper {
+  width: 30%;
     height: 80px;
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    justify-content: space-between;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
 }
 
 .wraper h2 {
     font-size: 48px;
     font-family: "Nunito";
-    margin-top: -11%;
-    margin-left: 30%;
 }
 
-.warning {
-    background-color: #FFCD61;
-    margin-left: 50%;
-    margin-top: -17.5%;
+
+.btn {
+    width: 80px;
+    height: 80px;
 }
 
 .btn:hover{
@@ -404,7 +409,7 @@ h2 {
     margin: auto;
   }
 
-  @media screen and (min-width:993px) and (max-width:1400px) {
+  @media screen and (min-width:994px) and (max-width:1400px) {
     body {
       overflow-x: hidden;
     }
@@ -414,8 +419,6 @@ h2 {
   }
 
   @media screen and (max-width: 993px) and (min-width: 769px) {
-
-
     .main-container {
       display: inline-block;
     }
@@ -423,6 +426,19 @@ h2 {
     .left {
       margin: auto;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+/* 
+    .right {
+      padding-top: 40%;
+    } */
+
+    .s-container {
+      position: relative;
+      background-color: blueviolet;
+    }
+
+    .second-container {
+
     }
 
     .right h1 {
@@ -459,20 +475,6 @@ h2 {
       margin-left:100%;
     }
 
-    .wraper {
-      margin-top: 5%;
-      margin-bottom: 5%;
-    }
-
-    .minus {
-      margin-left: -50%;
-    }
-
-    .warning {
-      margin-top: -37%;
-      margin-left: 20%;
-    }
-
     .wraper h2 {
       margin-top: -20%;
       margin-left: -5%;
@@ -492,44 +494,46 @@ h2 {
   }
   
   @media screen and (max-width: 768px) and (min-width: 574px) {
-
-
     .main-container {
       display: inline-block;
+      position: relative;
     }
 
     .main-container h1 {
       margin-left: 5%;
     }
 
+    .main-container h2 {
+      position: absolute;
+      top: 90%;
+      right: 1%;
+    }
+
     .main-container h3,h4,ul li {
       margin-left: 5%;
     }
     .second-container {
-      margin-left: 17%;
-      margin-top: 5%;
+      display: none;
     }
 
     .bi-chevron-right {
       margin-left: 104%;
     }
 
-    .wraper {
-      margin-top: 10%;
+    .s-container {
+      position: relative;
     }
 
-    .wraper .btn-light {
-      margin-left: -50%;
+    .wraper {
+      width: 35%;
+      position: absolute;
+      right: 5%;
+
     }
+
 
     .wraper h2 {
-      margin-left: -7%;
-      margin-top: -22%;
-    }
-
-    .wraper .warning {
-      margin-top: -37%;
-      margin-left: 18%;
+      padding-top: 50%;
     }
 
     .s-right {
