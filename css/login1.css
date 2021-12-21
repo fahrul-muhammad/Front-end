@@ -179,7 +179,7 @@ hr {
 }
 
 /* responsive breakpoint for 720px */
-@media screen and (max-width: 768px) and (min-width: 574px) {
+@media screen and (max-width: 768px) and (min-width: 573px) {
   body {
     background-image: url(/img/Log-in-img-van.jpg);
     background-size: cover;

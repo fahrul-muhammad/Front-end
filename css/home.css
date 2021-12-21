@@ -7,7 +7,6 @@
 
 body {
   display: block;
-  height: 2287px;
 }
 
 .navbar {
@@ -121,10 +120,6 @@ button .explore {
   position: relative;
 }
 
-/* .main-container figcaption {
-  margin-top: -19%;
-  width: 40%;
-} */
 
 .main-container figcaption, .main-container img {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -160,14 +155,21 @@ button .explore {
   cursor: pointer;
 }
 
+.container {
+  position: relative;
+}
+
+.row figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 8%;
+}
+
 .img-1 {
   background-color: white;
   height: 12%;
-  width: 30%;
   font-style: "Nunito";
   font-family: 15px;
-  margin-top: -13%;
-  position: relative;
   z-index: 1;
   border-radius: 3px;
 }
@@ -175,11 +177,8 @@ button .explore {
 .img-2 {
   background-color: white;
   height: 12%;
-  width: 30%;
   font-style: "Nunito";
   font-family: 15px;
-  margin-top: -13%;
-  position: relative;
   z-index: 1;
   border-radius: 3px;
 }
@@ -187,23 +186,21 @@ button .explore {
 .img-3 {
   background-color: white;
   height: 12%;
-  width: 30%;
   font-style: "Nunito";
   font-family: 15px;
-  margin-top: -13%;
-  position: relative;
   z-index: 1;
   border-radius: 3px;
+}
+
+.footer-container hr {
+  padding-bottom: 1.4% ;
 }
 
 .img-4 {
   background-color: white;
   height: 12%;
-  width: 30%;
   font-style: "Nunito";
   font-family: 15px;
-  margin-top: -13%;
-  position: relative;
   z-index: 1;
   border-radius: 3px;
 }
@@ -399,10 +396,15 @@ hr {
 }
 
 
-@media screen and (min-width:993px) and (max-width:1400px){
+@media screen and (min-width:994px) and (max-width:1400px){
+  .container {
+    position: relative;
+  }
   .main-container figcaption {
-    width: 35%;
+    width: 9%;
     margin-top: -12.9%;
+    position: absolute;
+    bottom: 0;
   }
 
   .first {
@@ -420,7 +422,7 @@ hr {
   }
   
   .main-container {
-    margin-bottom: 30%;
+    height: max-content;
   }
 
   .main-container p {
@@ -448,41 +450,52 @@ hr {
   }
 
   .testimoni {
-    margin-top: 20%;
+    margin-top: 5%;
+    height: max-content;
+    position: relative;
+    background-color: blueviolet;
+  }
+
+  .testimoni figcaption {
+    display:none;
   }
 
   .testimoni-img {
-    margin-top: -50%;
-    margin-left: 45%;
+    position: absolute;
+    bottom: 10%;
+    height: 80%;
   }
 
   .flex-container {
     width: 100%;
     height: max-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .first {
-    margin-left: 8%;
+    padding-left: 5%;
   }
 
   .footer-container {
-    overflow: hidden;
+    height: max-content;
   }
 
   .circle-1 {
     display: none;
   }
+  hr {
+    padding-bottom: 2%;
+  }
 
 }
 
-@media screen and (max-width: 768px) and (min-width: 574px) {
-  
+@media screen and (max-width: 768px) and (min-width: 573px) {
   .nav-btn {
     display: none;
   }
 
   .main-container figcaption {
-    margin-top: -26%;
-    width: 60%;
+    width: 50%;
   }
 
   .main-container {
@@ -531,12 +544,53 @@ hr {
   .first p {
     padding-bottom: 5%;
   }
+  hr {
+    padding-bottom: 2%;
+  }
 }
 
 @media screen and (max-width: 572px) {
   body {
+    width: 100%;
     overflow-x: hidden;
   }
+
+  .row img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17%;
+    position: relative;
+  }
+  .img-1 {
+    position: absolute;
+    left: 40%;
+    bottom: 30%;
+  }
+
+  .img-2 {
+    position: absolute;
+    left: 40%;
+    top: 147%; 
+  }
+
+  .img-3 {
+    position: absolute;
+    left: 40%;
+    top: 215%; 
+  }
+
+  .img-4 {
+    position: absolute;
+    left: 40%;
+    top: 283%;
+  }
+
+  .row figcaption {
+    width: 20%;
+    height: 8%;  
+  }
+
   nav .btn {
     display: none;
   }
@@ -603,25 +657,12 @@ hr {
     margin-right: 6%;
   }
 
-  .container {
-    margin-left: 23%;
-  }
-  .container img {
-    margin-bottom: 10%;
-  }
-
-  .container figcaption {
-    margin-top: -18.8%;
-    margin-bottom: 10%;
-    width: 17%;
-  }
-
   .circle-1 {
     display: none;
   }
 
   .testimoni {
-    margin-top: 190%;
+    margin-top: 215%;
     margin-right: 100%;
     background-color: blueviolet;
     background-image: url(/img/custumor.png);
@@ -637,7 +678,8 @@ hr {
   }
 
   .star {
-    margin-left: 35%;
+    width: max-content;
+    padding-left: 43%;
   }
 
   .testimoni h6 {
