@@ -1,335 +1,328 @@
 body {
-    background-color: white;
+  background-color: white;
 }
 
 li a {
-    color: #B8BECD;
+  color: #b8becd;
 }
 
-
 .navbar {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 .nav-email {
-    width: 40px;
-    height: 36px;
-    margin-right: 2%;
-    background-image: url(/img/email.png);
-    background-size: cover;
-    margin-left: 3%;
-    position: relative;
+  width: 40px;
+  height: 36px;
+  margin-right: 2%;
+  background-image: url(/img/email.png);
+  background-size: cover;
+  margin-left: 3%;
+  position: relative;
 }
 
-
 .unread-msg {
-    width: 20px;
-    height: 20px;
-    background-image: url(/img/Ellipse\ 188.png);
-    position: absolute;
-    left: -15%;
-    text-align: center;
-    padding-bottom: -50px;
+  width: 20px;
+  height: 20px;
+  background-image: url(/img/Ellipse\ 188.png);
+  position: absolute;
+  left: -15%;
+  text-align: center;
+  padding-bottom: -50px;
 }
 
 .nav-img {
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    border-radius:50% ;
-    background-image: url(/img/profilepic.png);
-    background-size: cover;
-    margin-right: 4%;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  background-image: url(/img/profilepic.png);
+  background-size: cover;
+  margin-right: 4%;
 }
 
 .container-profile {
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 90%;
-    height: max-content;
+  display: grid;
+  width: 100%;
+  height: 750px;
+  position: relative;
 }
 
 .profile h3 {
-    font-family: "Nunito";
-    font-size: 36px;
-    font-weight: 700;
+  font-family: "Nunito";
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 5%;
+  padding-top: 5%;
 }
 
 .card {
-    margin-top: 5%;
-    margin-left:35%;
-    width: 400px;
-    height: 440px;
-    border-color:white;
+  margin-left: 35%;
+  width: 400px;
+  height: 440px;
+  border-color: white;
 }
 
 .profile-pic {
-    margin-left: 23%;
-    width: 215px;
-    height: 215px;
-    border-radius: 50%;
-    background-image:url(/img/profilepic.png) ;
-    background-size: cover;
+  margin-left: 23%;
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+  background-image: url(/img/profilepic.png);
+  background-size: cover;
+  position: relative;
 }
 
 .edit {
-    width: 50px;
-    height: 50px;
-    background-color: #FFCD61;
-    border-radius: 50%;
-    margin-left: 80%;
-    margin-top: 70%;
-    background-image: url(/img/pen.png);
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ffcd61;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  background-image: url(/img/pen.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
 }
 
 .edit:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .card h1 {
-    text-align: center;
-    font-family: "Playfair Display";
-    font-weight: 700;
-    font-size: 48px;
-    padding-top: 10%;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 48px;
+  padding-top: 10%;
 }
 
 .card h4 {
-    font-family: "Nunito";
-    text-align: center;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
+  font-family: "Nunito";
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
 }
 
 .detail {
-    margin-top: 5%;
-    margin-left: 12%;
-    width: 302px;
-    height: 82px;
+  margin-top: 5%;
+  margin-left: 12%;
+  width: 302px;
+  height: 82px;
 }
 
 .detail h4 {
-    color: rgba(184, 190, 205, 1);
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-    text-align: center;
+  color: rgba(184, 190, 205, 1);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
 }
 
 .gender {
-    width: 700px;
-    margin-top: 7%;
-    margin-left: 34%;
-}
-
-.female {
-    margin-left: 25%;
+  width: 100%;
+  display: inline;
+  position: absolute;
+  bottom: 5%;
+  left: 0%;
 }
 
 .form-check label {
-    padding-left:20px;
-    font-size: 24px;
+  padding-left: 20px;
+  font-size: 24px;
 }
-
 
 /* contact */
 .contact {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5% ;
-    margin-top: 5%;
-    height: 930px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  height: 930px;
 }
 
-
-.contact h1,h2 {
-    padding-bottom: 2%;
-    font-size: 24px;
+.contact h1,
+h2 {
+  padding-bottom: 2%;
+  font-size: 24px;
 }
 
 .contact label {
-    font-size: 24px;
-    color: #9F9F9F;
+  font-size: 24px;
+  color: #9f9f9f;
 }
 
 .contact .form-label {
-    margin-bottom: 2%;
-    
+  margin-bottom: 2%;
 }
 
 .contact .form-control {
-    height: 60px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid black;
-    border-radius: 0%;
-    margin-bottom: 2%;
+  height: 60px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  border-radius: 0%;
+  margin-bottom: 2%;
 }
 
 .wraping {
-    width: 100%;
-    margin-top: 3%;
+  width: 100%;
+  margin-top: 3%;
 }
 
 .btn-warning {
-    margin-left: 1%;
-    background-color: #FFCD61;
-    color: #393939;
+  margin-left: 1%;
+  background-color: #ffcd61;
+  color: #393939;
 }
 
 .btn-secondary {
-    background-color: #393939;
-    color: #FFCD61;
+  background-color: #393939;
+  color: #ffcd61;
 }
 
 .btn-secondary:hover {
-    color: #FFCD61;
-    background-color: #2c2c2c;
+  color: #ffcd61;
+  background-color: #2c2c2c;
 }
 
 .btn-light {
-    margin-right: 1%;
-    background-color: rgba(203, 203, 212, 0.27);
-    color: #393939;
+  margin-right: 1%;
+  background-color: rgba(203, 203, 212, 0.27);
+  color: #393939;
 }
 
 .btn-light:hover {
-    background-color: rgba(181, 181, 189, 0.27);
+  background-color: rgba(181, 181, 189, 0.27);
 }
 
 .btn {
-    width: 322px;
-    height: 69px;
-    font-size: 24px;
-    border-radius: 10px;
-    font-weight: 900;
+  width: 322px;
+  height: 69px;
+  font-size: 24px;
+  border-radius: 10px;
+  font-weight: 900;
 }
 
 .btn:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 350px;
-    color: rgba(57, 57, 57, 1);
-    font-style: "Mulish";
-    font-weight: 700;
-    background-color: #F9F9FB;
-  }
-  
-  ul {
-    color: rgba(132, 132, 132, 1);
-    
-  }
-  
-  li {
-    font-size: 18px;
-    font-weight: 300;
-  }
-  
-  .first {
-    width: 500px;
-  }
-  
-  .first p {
-    padding-top: 5%;
-    padding-right: 45%;
-    font-size: 18px;
-    font-weight: 300;
-  }
-  
-  .first h6 {
-    font-size: 17px;
-    font-weight: 300;
-    padding-left: 0%;
-  }
-  
-  .second {
-    width: auto;
-  }
-  
-  .second ul {
-    list-style-type: none;
-    padding-left: 0%;
-    margin-top: 10%;
-  }
-  
-  .second li {
-    margin-top: 1%;
-    padding-top: 3%;
-  }
-  
-  .third {
-    margin-left: 5%;
-    width: auto;
-  }
-  
-  .third ul {
-    list-style-type: none;
-    padding-left: 0%;
-    margin-top: 7%;
-  }
-  
-  .third li {
-    padding-top: -2%;
-    padding-bottom: 3%;
-  }
-  
-  .fourt {
-    width: auto;
-    margin-right: 7%;
-  }
-  
-  .fourt ul {
-    list-style-type: none;
-    padding-left: 0%;
-    margin-top: 7%;
-  }
-  
-  .fourt li {
-    padding-top: -2%;
-    padding-bottom: 3%;
-  }
-  
-  .footer-container {
-    height: 83px;
-    background-color: #F9F9FB;
-  }
-  
-  .footer-container h6 {
-    color: rgba(196, 196, 196, 1);
-    text-align: center;
-  }
-  
-  .icon {
-    color: #393939;
-    font-size: 30px;
-    text-align: center;
-    margin-left: 3%;
-  }
-  
-  .fa {
-    margin-right: 3%;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 350px;
+  color: rgba(57, 57, 57, 1);
+  font-style: "Mulish";
+  font-weight: 700;
+  background-color: #f9f9fb;
+}
 
-  
+ul {
+  color: rgba(132, 132, 132, 1);
+}
+
+li {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.first {
+  width: 500px;
+}
+
+.first p {
+  padding-top: 5%;
+  padding-right: 45%;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.first h6 {
+  font-size: 17px;
+  font-weight: 300;
+  padding-left: 0%;
+}
+
+.second {
+  width: auto;
+}
+
+.second ul {
+  list-style-type: none;
+  padding-left: 0%;
+  margin-top: 10%;
+}
+
+.second li {
+  margin-top: 1%;
+  padding-top: 3%;
+}
+
+.third {
+  margin-left: 5%;
+  width: auto;
+}
+
+.third ul {
+  list-style-type: none;
+  padding-left: 0%;
+  margin-top: 7%;
+}
+
+.third li {
+  padding-top: -2%;
+  padding-bottom: 3%;
+}
+
+.fourt {
+  width: auto;
+  margin-right: 7%;
+}
+
+.fourt ul {
+  list-style-type: none;
+  padding-left: 0%;
+  margin-top: 7%;
+}
+
+.fourt li {
+  padding-top: -2%;
+  padding-bottom: 3%;
+}
+
+.footer-container {
+  height: 83px;
+  background-color: #f9f9fb;
+}
+
+.footer-container h6 {
+  color: rgba(196, 196, 196, 1);
+  text-align: center;
+}
+
+.icon {
+  color: #393939;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.fa {
+  margin-right: 3%;
+}
+
 hr {
   width: 85%; /*  #C4C4C4 */
-  border-top: 3px solid  #C4C4C4;
+  border-top: 3px solid #c4c4c4;
   margin: auto;
 }
 
-
-@media screen and (min-width:993px) and (max-width:1400px) {
+@media screen and (min-width: 993px) and (max-width: 1400px) {
   body {
     overflow-x: hidden;
   }
@@ -346,16 +339,25 @@ hr {
   }
 }
 
-@media screen and (max-width: 993px) and (min-width: 769px) {
+@media screen and (max-width: 992px) and (min-width: 769px) {
   body {
-      overflow-x: hidden;
+    overflow-x: hidden;
+  }
+
+  .gender {
+    width: 50%;
   }
   .card {
     margin: auto;
   }
+
+  .female {
+    padding-left: 30%;
+  }
+
   .gender {
-    margin-left: auto;
-    margin-right: -7%;
+    bottom: 0%;
+    left: 32%;
   }
   .wraping button {
     width: 30%;
@@ -363,17 +365,22 @@ hr {
 
   .first {
     margin-left: 3%;
-    
   }
-  .first,.second,.third,.fourt {
+  .first,
+  .second,
+  .third,
+  .fourt {
     margin-top: 5%;
   }
   .fourt {
     margin-left: 3%;
   }
+  hr {
+    margin-bottom: 2%;
+  }
 }
 
-@media screen and (max-width: 768px) and (min-width: 574px) {
+@media screen and (max-width: 768px) and (min-width: 573px) {
   body {
     overflow-x: hidden;
   }
@@ -383,8 +390,13 @@ hr {
   }
 
   .gender {
-    margin-right: auto;
-    margin-left: 20%;
+    width: 40%;
+    bottom: 0;
+    left: 30%;
+  }
+
+  .female {
+    padding-left: 21%;
   }
   .wraping button {
     width: 30%;
@@ -396,7 +408,6 @@ hr {
   .fourt {
     margin-left: 1%;
   }
-
 }
 
 @media screen and (max-width: 572px) {
@@ -404,12 +415,45 @@ hr {
     overflow-x: hidden;
   }
 
-  .navbar-toggler  {
+  .navbar {
+    position: relative;
+  }
+
+  .nav-img {
+    position: absolute;
+    right: 8%;
+  }
+
+  .gender {
+    width: 60%;
+    bottom: 0;
+    left: 13%;
+  }
+
+  .female {
+    padding-left: 30%;
+  }
+
+  .navbar-toggler {
     display: none;
   }
 
+  .msg {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 10%;
+    bottom: 5%;
+    z-index: 9999;
+  }
+
   .nav-email {
-    display: none;
+    position: absolute;
+    left: 15%;
+    bottom: 23%;
   }
 
   .card {
@@ -424,7 +468,7 @@ hr {
     width: 80%;
     margin-bottom: 5%;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
   }
 
   .first {
@@ -435,5 +479,8 @@ hr {
   }
   .flex-container {
     height: max-content;
+  }
+  hr {
+    margin-bottom: 3%;
   }
 }
