@@ -8,22 +8,38 @@ li a {
 
 .navbar {
   background-color: white !important;
+  position: relative;
+}
+
+.navbar-nav li {
+  font-weight: 500;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 20%;
+}
+
+.msg {
+  height: max-content;
+  position: absolute;
+  right: 13%;
+  bottom: 25%;
 }
 
 .nav-email {
   width: 40px;
   height: 36px;
-  margin-right: 2%;
+  margin-right: 5%;
   background-image: url(/img/email.png);
   background-size: cover;
-  margin-left: 3%;
-  position: relative;
 }
 
 .unread-msg {
   width: 20px;
   height: 20px;
-  background-image: url(/img/Ellipse\ 188.png);
+  background-color: #ffcd61;
+  border-radius: 50%;
   position: absolute;
   left: -15%;
   text-align: center;
@@ -56,7 +72,9 @@ li a {
 }
 
 .card {
-  margin-left: 35%;
+  position: absolute;
+  top: 30%;
+  left: 35%;
   width: 400px;
   height: 440px;
   border-color: white;
@@ -122,11 +140,12 @@ li a {
 }
 
 .gender {
-  width: 100%;
-  display: inline;
+  width: 40%;
   position: absolute;
   bottom: 5%;
-  left: 0%;
+  left: 35%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .form-check label {
@@ -215,7 +234,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 350px;
+  height: max-content;
   color: rgba(57, 57, 57, 1);
   font-style: "Mulish";
   font-weight: 700;
@@ -320,6 +339,7 @@ hr {
   width: 85%; /*  #C4C4C4 */
   border-top: 3px solid #c4c4c4;
   margin: auto;
+  margin-bottom: 1%;
 }
 
 @media screen and (min-width: 993px) and (max-width: 1400px) {
@@ -348,7 +368,7 @@ hr {
     width: 50%;
   }
   .card {
-    margin: auto;
+    left: 32.5%;
   }
 
   .female {
@@ -385,14 +405,19 @@ hr {
     overflow-x: hidden;
   }
 
+  .msg {
+    position: absolute;
+    right: 14%;
+  }
+
   .card {
-    margin: auto;
+    left: 25%;
   }
 
   .gender {
     width: 40%;
     bottom: 0;
-    left: 30%;
+    left: 33%;
   }
 
   .female {
@@ -422,6 +447,10 @@ hr {
   .nav-img {
     position: absolute;
     right: 8%;
+  }
+
+  .card {
+    left: 15%;
   }
 
   .gender {
