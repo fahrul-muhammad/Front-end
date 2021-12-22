@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,55 +14,227 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
     <!-- /FONT -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
-
-    <link rel="stylesheet" href="/css/login1.css" />
-    <title>Login.com</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="img-container">
-        <div class="login-img"></div>
-      </div>
-      <div class="form">
-        <p class="font-weight-bold">Login</p>
-        <div class="form-group row">
-          <div class="col-sm-8 offset-2 input">
-            <label for="ex1"></label>
-            <input class="form-control email" id="ex1" type="email" placeholder="email" />
-          </div>
-          <div class="col-sm-8 offset-2 input">
-            <label for="ex1"></label>
-            <input class="form-control" id="ex1" type="password" placeholder="password " />
-            <a href="/home.html">
-              <button type="button" class="btn btn-warning col-sm-12 fw-bold">Login</button>
-            </a>
-            <h4>forgot password?</h4>
-            <div class="text-center mid-text"><h3>———— to try another way ————</h3></div>
-            <a href="/home.html">
-              <button type="button" class="btn btn-light col-sm-12 fw-bold"><img src="https://img.icons8.com/color/48/000000/google-logo.png" /> Login With Google</button>
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>Home Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid me-2">
+            <a class="navbar-brand" href="#">
+                <img src="/img/logo.png" alt="" style="margin-left: 150%;">
+              </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">vehicle type</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">history</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">about</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="/login.html" class="login-btn">
+                <button type="button" class="btn btn-light nav-btn" style="width: 132px">Login</button>
             </a>
             <a href="/sign-up.html">
-              <button type="button" class="btn btn-dark text-warning col-sm-12 fw-bold">Sign Up</button>
+            <button type="button" class="btn btn-warning nav-btn" style="width: 132px">Register</button>
             </a>
-          </div>
         </div>
-        <h5>Plan and book your perfect trip with expert advice, travel tips for vehicle information from us</h5>
-        <h6 class="copyright">©2021 Vehicle Rental Center. All rights reserved</h6>
-        <hr>
-        <footer class="footer-container">
-          <div class="icon">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-            <i class="fa fa-youtube-play" aria-hidden="true"></i>
-          </div>
-        </footer>
-      </div>
-    </div>
-    <script src="https://use.fontawesome.com/414dbfc4ce.js"></script>
-  </body>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <h1>Explore and Travel</h1>
+        <h5>Vehicle Finder</h5>
+        <h6>——</h6>
+        <div class="dropdown">
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary location text-start"
+                    style="width: 200px; height: 52px">Location</button>
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split location"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Location</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary type text-start" style=" height: 52px">Type</button>
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split type-"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Type</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary payment text-start"
+                    style="width: 200px; height: 52px">Payment</button>
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split payment"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Payment</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary  date text-start" style=" height: 52px">Date</button>
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split date-"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Date</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-warning explore" style="width: 180px; height: 53px;">Expolre</button>
+        </div>
+        <div class="main-container">
+            <p>Popular In Town</p>
+            <h6>View All ></h6>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 mt-3 col-lg-3">
+                        <img src="../img/Log-in-img-van.jpg" class="img-fluid" alt="image">
+                        <figcaption class="figure-caption img-1"><strong>Merapi </strong> <br> Yogyakarta </figcaption>
+                    </div>
+                    <div class="col-sm-4 mt-3 col-lg-3">
+                        <img src="../img/motor-cross.jpg" class="img-fluid" alt="image">
+                        <figcaption class="figure-caption img-2"><strong>Teluk Bogam </strong>  <br>Kalimantan </figcaption>
+                    </div>
+                    <div class="col-sm-4 mt-3 col-lg-3">
+                        <img src="../img/jeep-in-bromo.jpg" class="img-fluid" alt="image">
+                        <figcaption class="figure-caption img-3"><strong>Bromo </strong>  <br>Malang </figcaption>
+                    </div>
+                    <div class="col-sm-4 mt-3 col-lg-3">
+                        <img src="../img/motorbike-in-city.jpg" class="img-fluid" alt="image">
+                        <figcaption class="figure-caption img-4"><strong>Malioboro </strong>  <br>Yogyakarta </figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimoni">
+            <h3>Testimoni</h3>
+            <div class="star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+            <h6>”It was the right decision to rent vehicle here, I spent less money and enjoy the trip. It was an
+                amazing experience to have a ride for wildlife trip!”</h6>
+            <h2>Edward Newgate</h2>
+            <h4>Founder Circle</h4>
+            <img src="/img/element2.jpg" class="circle-1">
+            <div class="testimoni-img">
+                <figcaption class="figure-caption">
+                    <strong>Edward</strong> Newgate
+                </figcaption>
+            </div>
+        </div>
+           <section>
+               <div class="flex-container">
+                   <div class="first">
+                       <img src="/img/logo.png" alt="">
+                       <p>Plan and book your perfect trip with 
+                        expert advice, travel tips for vehicle
+                        information from us</p>
+                        <h6>©2020 Vehicle Rental Center. All rights reserved</h6>
+                   </div>
+                   <div class="second">
+                       Destinations
+                       <ul>
+                           <li>Bali</li>
+                           <li>Yogyakarta</li>
+                           <li>Jakarta</li>
+                           <li>Kalimantan</li>
+                           <li>Malang</li>
+                       </ul>
+                    </div>
+                   <div class="third">
+                       Vehicle
+                       <ul>
+                           <li>Bike</li>
+                           <li>Cars</li>
+                           <li>Motorbike</li>
+                           <li>Return Time</li>
+                           <li>FAQs</li>
+                       </ul>
+                    </div>
+                   <div class="fourt">
+                       Interests
+                        <ul>
+                            <li>Advanture Travel</li>
+                            <li>Art And Culture</li>
+                            <li>Wildlife And Nature </li>
+                            <li>Family Holydays</li>
+                            <li>Culinary Trip</li>
+                        </ul>
+                    </div>
+               </div>
+           </section>
+           <footer>
+               <div class="footer-container">
+                  <hr>
+                   <div class="icon">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                   </div>
+               </div>
+           </footer>
+        <!-- bootrtrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+        <!-- fontawesome JS -->
+        <script src="https://use.fontawesome.com/414dbfc4ce.js"></script>
+</body>
+
 </html>
