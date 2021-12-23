@@ -32,7 +32,7 @@
   font-size: 48px;
   font-family: "Playfair Display";
   font-weight: 700;
-  padding-top: 2%;
+  padding-top: 8%;
   padding-left: 17%;
   text-shadow: 0px 3px 4px #373737;
 }
@@ -63,26 +63,21 @@
   width: 25%;
 }
 
-.input {
-  margin-bottom: 2%;
-}
 .email {
   height: 100%;
   width: 100%;
-  background-color: rgba(218, 218, 218, 0.28) !important;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .password {
+  margin-top: 5%;
   margin-bottom: 5%;
   height: 17%;
-  background-color: rgba(218, 218, 218, 0.28) !important;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .login {
   height: 17%;
-  margin-top: 3%;
 }
 
 .form-container button {
@@ -120,11 +115,12 @@
 
 .signup {
   height: 17%;
+  margin-top: 5%;
 }
 
 .footer-container {
   grid-area: right;
-  margin-top: 14%;
+  margin-top: 10%;
   width: 100%;
   height: 48.6%;
   position: relative;
@@ -145,15 +141,6 @@
 
 .footer-container h3 {
   padding-top: 30%;
-  padding-right: 25%;
-  padding-left: 10%;
-  font-size: 30px;
-  font-family: "Mulish";
-  font-weight: 300;
-}
-
-.footer-container h4 {
-  padding-top: 5%;
   padding-right: 25%;
   padding-left: 10%;
   font-size: 30px;
@@ -211,10 +198,6 @@
     padding-top: 40%;
     font-size: 20px;
   }
-
-  .footer-container h4 {
-    font-size: 20px;
-  }
   .icon {
     bottom: 0;
     width: 35%;
@@ -233,21 +216,16 @@
     width: 15%;
   }
   .footer-container {
-    margin-top: 25%;
     height: 44%;
   }
 
   .logo {
-    top: 30%;
-    width: 10%;
+    top: 43%;
+    width: 8%;
   }
 
   .footer-container h3 {
     padding-top: 45%;
-    font-size: 20px;
-  }
-
-  .footer-container h4 {
     font-size: 20px;
   }
 
@@ -290,16 +268,7 @@
   }
 
   .footer-container {
-    margin-top: 5%;
     height: 200px;
-  }
-
-  .email {
-    background-color: rgb(255, 255, 255) !important;
-  }
-
-  .password {
-    background-color: rgb(255, 255, 255) !important;
   }
 
   .logo {
@@ -315,10 +284,6 @@
     padding-top: 6%;
     padding-left: 20%;
     font-size: 20px;
-  }
-
-  .footer-container h4 {
-    display: none;
   }
 
   .footer-container hr {
@@ -376,21 +341,9 @@
     height: 150px;
   }
 
-  .footer-container h4 {
-    display: none;
-  }
-
   .email,
   .password {
     width: 70%;
-  }
-
-  .email {
-    background-color: rgb(255, 255, 255) !important;
-  }
-
-  .password {
-    background-color: rgb(255, 255, 255) !important;
   }
 
   .login {
