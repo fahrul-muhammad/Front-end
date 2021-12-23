@@ -1,9 +1,5 @@
 # Front-End of vehicle rental project
 
-<p align="center">
-
-</p>
-
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
@@ -13,7 +9,7 @@
   <p align="center">
     Simple Website page made with HTML, CSS and Bootstrap
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://circlevehicle.netlify.app/">View Demo</a>
