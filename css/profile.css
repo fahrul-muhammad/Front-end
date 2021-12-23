@@ -450,12 +450,13 @@ hr {
   }
 
   .card {
+    top: 15%;
     left: 15%;
   }
 
   .gender {
     width: 60%;
-    bottom: 0;
+    bottom: 10%;
     left: 13%;
   }
 
