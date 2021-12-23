@@ -12,6 +12,18 @@
   grid-template-areas: "left right";
 }
 
+.btn-warning {
+  background-color: rgba(255, 205, 97, 1) !important;
+}
+
+.btn-dark {
+  background-color: rgba(57, 57, 57, 1) !important;
+}
+
+.btn-light {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
 .row {
   width: 100%;
 }
